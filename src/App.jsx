@@ -160,7 +160,7 @@ function App() {
               img: rps,
               title: "Rock Paper Scissors",
               desc: "Interactive rock-paper-scissors game using JS logic.",
-              live: "rock-paper-scissor-0my.netlify.app",
+              live: "https://rock-paper-scissor-0my.netlify.app/",
               git: "https://github.com/yourusername/rock-paper-scissors"
             },
             {
