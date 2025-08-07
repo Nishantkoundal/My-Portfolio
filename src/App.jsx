@@ -89,7 +89,7 @@ function App() {
             <h1>Hi, I'm Nishant Koundal</h1>
             <p>Frontend Developer | HTML, CSS, JavaScript, React</p>
             <div className="hero-buttons">
-              <a href="images/Resume_NishantKoundal.pdf" download className="btn">Download Resume</a>
+              <a href="my-app/src/assets/Nishant-Koundal_Resume.pdf" download className="btn">Download Resume</a>
               <a href="https://github.com/Nishantkoundal" className="btn btn-github" target="_blank" rel="noreferrer">GitHub Profile</a>
             </div>
           </div>
