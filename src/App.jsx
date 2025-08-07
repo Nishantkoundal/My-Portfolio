@@ -32,10 +32,10 @@ function App() {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm(
-      'service_s516s5d',
-      'template_onenkyk',
+      'service_zcunukg',
+      'template_k7je4sm',
       formRef.current,
-      'kCBDQSaLjahLpHb4B' // Public key
+      'hs4-Hqnc1V77I3DXG' // Public key
     )
       .then(
         (result) => {
