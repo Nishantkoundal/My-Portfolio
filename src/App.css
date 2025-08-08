@@ -385,7 +385,7 @@ padding: 0px 60px;
   }
   .about {
     width: 90%;
-        margin-top:18rem ;
+        margin-top:15rem ;
 
   }
  .about-section {
@@ -461,7 +461,7 @@ padding: 0px 60px;
   /* Center the outer about container */
   .about {
     width: 90%;
-    margin: 13rem auto 0 auto;
+    margin: 12rem auto 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;

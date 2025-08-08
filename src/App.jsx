@@ -17,6 +17,7 @@ import weather from './assets/weather.jpg';
 import contactImg from './assets/Development.png';
 import './components/Navbar.css'
 import Resume from '../public/resume/Nishant-Koundal_Resume.pdf';
+import Typewriter from 'typewriter-effect';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -87,7 +88,13 @@ function App() {
             <img src={Programming} alt="coding" />
           </div>
           <div className="hero-right">
-            <h1>Hi, I'm Nishant Koundal</h1>
+            <h1 ><Typewriter
+        options={{
+          strings: ["Hello, I'm Nishant Koundal", "Frontend Developer",],
+          autoStart: true,
+          loop: true,
+        }}
+      /></h1>
             <p>Frontend Developer | HTML, CSS, JavaScript, React</p>
             <div className="hero-buttons">
               <a href={Resume} download="Resume" className="btn">
