@@ -210,10 +210,15 @@ font-weight: 500;
 
   .menu-icon {
     display: block;
+ 
+
+    
   }
 
   #contact-btn {
-    display: none;
+    display: block;
+  
+
   }
 }
 
@@ -296,3 +301,6 @@ font-weight: 500;
   --nav-button-text: #ffff;
   --nav-button-hover:#5ba1f1;
 }
+
+
+
