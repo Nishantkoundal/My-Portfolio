@@ -90,7 +90,7 @@ function App() {
           <div className="hero-right">
             <h1 ><Typewriter
         options={{
-          strings: ["Hello, I'm Nishant Koundal", "Frontend Developer",],
+          strings: ["Hello, I'm Nishant Koundal",],
           autoStart: true,
           loop: true,
         }}
