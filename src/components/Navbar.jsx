@@ -21,6 +21,7 @@ const Navbar = () => {
               <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Projects</a></li>
+              
             </ul>
           </div>
           </div>
@@ -44,6 +45,7 @@ const Navbar = () => {
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Projects</a></li>
+
               </ul>
             </div>
             <button id="theme-toggle1">Theme</button>
@@ -60,4 +62,4 @@ const Navbar = () => {
 
 export default Navbar;
 
-
+//old

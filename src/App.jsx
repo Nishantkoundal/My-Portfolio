@@ -67,6 +67,8 @@ function App() {
               <li><a href="#about" onClick={() => setMenuOpen(false)}>About</a></li>
               <li><a href="#skills" onClick={() => setMenuOpen(false)}>Skills</a></li>
               <li><a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a></li>
+              <li><a href="#contact" id='contact-app' onClick={() => setMenuOpen(false)}>Contact</a></li>
+
             </ul>
           </div>
 
@@ -93,6 +95,7 @@ function App() {
           strings: ["Hello, I'm Nishant Koundal",],
           autoStart: true,
           loop: true,
+           delay:150,
         }}
       /></h1>
             <p>Frontend Developer | HTML, CSS, JavaScript, React</p>

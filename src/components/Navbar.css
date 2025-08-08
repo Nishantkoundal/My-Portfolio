@@ -92,6 +92,10 @@ font-weight: 500;
   color: var(--nav-text);
   cursor: pointer;
 }
+#contact-app {
+      display: none;
+
+}
 @media(max-width: 1200px) {
  
   
@@ -143,6 +147,9 @@ font-weight: 500;
   #theme-toggle {
     margin-left: 10px;
   }
+  #contact-app {
+    display: none;
+  }
 }
 
 
@@ -152,7 +159,10 @@ font-weight: 500;
     display: flex;
     justify-content: center; /* changed from space-between */
   }
+#contact-app {
+      display: block;
 
+}
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -165,12 +175,13 @@ font-weight: 500;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 0 20px;
     align-items: center;
   }
 
  .links {
   position: absolute;
-  top: 120px;
+  top: 100px;
   left: 50%;
   transform: translateX(-50%);
   width: 90%;
@@ -194,7 +205,7 @@ font-weight: 500;
 
 .links.show {
   padding: 20px 0;
-  max-height: 300px; /* or enough to show all items */
+  max-height: 600px; /* or enough to show all items */
   opacity: 1;
   pointer-events: auto;
 }
@@ -210,29 +221,32 @@ font-weight: 500;
 
   .menu-icon {
     display: block;
- 
+ font-size: 22px;
 
     
   }
 
   #contact-btn {
-    display: block;
-    margin-right: auto;
-    margin-left: 50px;
-    font-size: 13px;
-    font-weight: 600;
-    padding: 7px 10px;
-  
-
-  }
+    display: none;
+   
 }
-
+}
 @media (max-width: 400px) {
   header {
     display: flex;
     justify-content: center; /* changed from space-between */
   }
+#contact-app {
+      display: block;
 
+}
+.main{
+   width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 ;
+    align-items: center;
+}
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -293,14 +307,7 @@ font-weight: 500;
     display: block;
   }
 
-  #contact-btn {
-    display: block;
-    margin-right: auto;
-    margin-left: 50px;
-    font-size: 13px;
-    font-weight: 600;
-    padding: 5px 10px;
-  }
+  
 }
 /* Optional root variables */
 :root {
@@ -314,3 +321,4 @@ font-weight: 500;
 
 
 
+/* old */
