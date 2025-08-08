@@ -16,6 +16,7 @@ import rps from './assets/r-p-s.png';
 import weather from './assets/weather.jpg';
 import contactImg from './assets/Development.png';
 import './components/Navbar.css'
+import Resume from '../public/resume/Nishant-Koundal_Resume.pdf';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -89,7 +90,7 @@ function App() {
             <h1>Hi, I'm Nishant Koundal</h1>
             <p>Frontend Developer | HTML, CSS, JavaScript, React</p>
             <div className="hero-buttons">
-              <a href="public/resume/Nishant-Koundal_Resume.pdf" download className="btn">
+              <a href={Resume} download="Resume" className="btn">
               Download Resume
               </a>
               <a href="https://github.com/Nishantkoundal" className="btn btn-github" target="_blank" rel="noreferrer">GitHub Profile</a>
