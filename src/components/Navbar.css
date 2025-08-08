@@ -217,6 +217,11 @@ font-weight: 500;
 
   #contact-btn {
     display: block;
+    margin-right: auto;
+    margin-left: 50px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px 10px;
   
 
   }
@@ -240,7 +245,7 @@ font-weight: 500;
   .main {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
 
@@ -289,7 +294,12 @@ font-weight: 500;
   }
 
   #contact-btn {
-    display: none;
+    display: block;
+    margin-right: auto;
+    margin-left: 50px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px 10px;
   }
 }
 /* Optional root variables */
